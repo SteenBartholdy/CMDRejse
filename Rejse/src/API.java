@@ -40,7 +40,6 @@ public class API {
 			System.out.println("Hvis du vil se brugerinformation, tast 1.");
 			System.out.println("Hvis du vil opdatere dit telefonnummer, tast 2.");
 			System.out.println("Hvis du vil tilføje et land, tast 3");
-			System.out.println("Hvis du vil have en liste over alle lande og takster, tast 4");
 			answer = keyboard.nextInt();
 			if(answer != 1 && answer != 2 && answer != 3)
 			{
